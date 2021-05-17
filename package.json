@@ -1,0 +1,26 @@
+{
+  "name": "token-bridge",
+  "version": "1.0.0",
+  "description": "Bridge Ethereum and Binance Smart Chain Contracts",
+  "main": "truffle.js",
+  "directories": {},
+  "scripts": {},
+  "author": "DeFiPie team",
+  "license": "MIT",
+  "devDependencies": {
+    "ganache-cli": "^6.5.1",
+    "mocha": "^6.2.0",
+    "truffle": "^5.0.31",
+    "truffle-hdwallet-provider": "^1.0.15",
+    "truffle-plugin-verify": "^0.5.4",
+    "truffle-security": "^1.5.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "3.3.0",
+    "@openzeppelin/test-helpers": "^0.5.9",
+    "abi-decoder": "^2.2.0",
+    "bignumber.js": "8.0.1",
+    "truffle-flattener": "^1.5.0",
+    "web3": "^1.2.1"
+  }
+}
